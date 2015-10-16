@@ -1,5 +1,7 @@
 ﻿var fs = require('fs');
 
+//comment
+
 fs.readdir('.', function (err, files) {
     if (err) {
         console.log('Error finding files: ' + err)
